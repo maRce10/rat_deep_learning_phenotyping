@@ -1,0 +1,89 @@
+---
+title: A very cool analysis
+subtitle: A very fancy project
+author: <a href="http://researcher.website.com/">Researcher name</a>
+date: "`r Sys.Date()`"
+toc: true
+toc-depth: 2
+toc-location: left
+number-sections: true
+highlight-style: pygments
+format:
+  html:
+    df-print: kable
+    code-fold: show
+    code-tools: true
+    css: qmd.css
+---
+
+
+
+```{python}
+
+1 + 1
+
+```
+
+
+<!-- skyblue box -->
+<div class="alert alert-info">
+
+# Purpose
+
+- The first goal of this report
+
+- The second goal of this report
+
+</div>
+
+&nbsp; 
+
+
+<!-- light brown box -->
+<div class="alert alert-warning">
+
+# Report overview
+
+- You can have the sections listed here, for instance:
+
+  - [Lorem ipsum](#lorem-ipsum)
+  - [Takeaways](#takeaways)
+
+</div>
+
+&nbsp;
+
+# Load packages
+
+
+# Lorem ipsum
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in felis ut mauris consectetur sodales. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec ex neque. Nunc ultricies et ante ac feugiat. Nulla quam ex, viverra eget mollis non, porttitor nec ante. Donec non felis a nisi elementum consectetur tempor in mauris. Curabitur leo nunc, posuere in erat sit amet, varius aliquam mi. Nullam lacinia odio neque, et semper erat fermentum ut. Praesent mi massa, convallis in vehicula mattis, condimentum ac risus. In eget metus eget nunc pulvinar finibus. Proin nec tellus sed lorem malesuada aliquet sed laoreet augue. 
+
+
+<!-- '&nbsp;' adds blank space -->
+
+
+
+<!-- light green box -->
+
+<div class="alert alert-success">
+
+# Takeaways {.unnumbered .unlisted}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in felis ut mauris consectetur sodales. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+</div>
+
+&nbsp;
+
+<!-- '---' adds a gray vertical line -->
+
+---
+
+&nbsp; 
+ 
+ <!-- add packages used, system details and versions  -->
+ 
+<font size="4">Session information</font>
+
