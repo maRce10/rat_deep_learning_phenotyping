@@ -606,7 +606,7 @@ body {
 <!-- Short Description  -->
 
 <p>On this proyect, we aim to develop an IA that can extract the stadistics of phenotype or animal pose behaviour per amount of time given a rat video.</p>
-<p><em>Updated on 2024-02-02 12:17:24</em></p>
+<p><em>Updated on 2024-02-02 14:21:18</em></p>
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 <h2 id="table-of-contents">Table of contents</h2>
@@ -623,10 +623,10 @@ body {
 </ul></li>
 </ul>
 <h2 id="general-info">General info</h2>
-<p>General information about the project (study system, goals, etc)</p>
-<p>It is built in three different steps:</p>
+<p>Originaly developed for the Neuroscience Investigation Center (CIN) of the University of Costa Rica (UCR). The idea of this proyect is to create an IA that can help ease the data analisys of rats behavior, particulary by using videos.</p>
+<p>The proyect built proposal idea is divided in three different steps:</p>
 <ol>
-<li>Develop an IA capable of defining the animal on every video frame. For this step we’ll be using tools like: DeepLabCut and Sleap.</li>
+<li>Develop an IA capable of defining the animal on every video frame. For this step we’ll be using tools like: <a href="http://www.mackenziemathislab.org/deeplabcut">DeepLabCut</a> and <a href="https://sleap.ai/">Sleap</a>.</li>
 <li>Classify the rat’s phenotype to determine it’s behaviour (ex: grooming). For this step we’ll be using: <a href="https://deepof.readthedocs.io/en/latest/index.html">deepOF</a></li>
 <li>Asocciate the phenotype per second so it can be determied the pocentage of each rat’s behaviour at the video, therefore be able to do stadistics based on the information</li>
 </ol>
@@ -634,14 +634,22 @@ body {
 <ul>
 <li>Efficiency</li>
 </ul>
-<p>Before jumping into any conclusion, there’s the need to test the efficiency levels of the IA. In order to do so, we’re doing 3 comparisons: 1. DeepLabCut vs Sleap 2. Rat vs Mouse 3. Git already trained IA vs our own IA Depending on the results we shall continue with the most efficient one.</p>
+<p>Before jumping into any conclusion, there’s the need to test the efficiency levels of the IA. In order to do so, we’re making 3 comparisons:</p>
+<ol>
+<li>DeepLabCut vs Sleap: Both packages were designned to distiguish and follow the animal body through the video.</li>
+<li>Rat vs Mouse: There are models to identify mouses using said libraries, yet not with rats. So we’re going to test out those models with rats vs our own.</li>
+<li>Git alreadytrained IA vs our own IA: we don’t want to engage with only one dataset, knowing that it may make out IA good at it but not so good at tracking and classifing rat phenotype behavior with other datasets.</li>
+</ol>
+<p>Depending on the results we shall continue with the most efficient one.</p>
 <h2 id="in-progress">In progress</h2>
 <ul>
-<li>First step</li>
+<li>First step of the built process</li>
 </ul>
 <h2 id="to-do-list">To-do list</h2>
 <ul>
-<li>Do the next analysis</li>
+<li>Finish the second and third steps of the proyect built process</li>
+<li>Make the comparisons between the IA’s and determine the most efficient one</li>
+<li>Conclusions and analysis of the IA development with the CIN rats videos</li>
 </ul>
 <h2 id="status">Status</h2>
 <p>Project is: <em>in progress</em></p>
