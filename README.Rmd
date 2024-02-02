@@ -9,7 +9,7 @@ editor_options:
 
 <!-- Short Description  -->
 On this proyect, we aim to develop an IA that can extract the stadistics of phenotype or animal pose behaviour per amount of time
-given a rat video.
+given a wistar rat video.
 
 *Updated on `r Sys.time()`*
 
