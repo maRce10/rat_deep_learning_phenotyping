@@ -20,11 +20,12 @@ video.
           - [To do list](#to-do-list)
               - [Contact](#contact)
 
+
 ## General info
 
-General information about the project (study system, goals, etc)
+Originaly developed for the Neuroscience Investigation Center (CIN) of the University of Costa Rica (UCR). The idea of this proyect is to create an IA that can help ease the data analisys of rats behavior, particulary by using videos. 
 
-It is built in three different steps:
+The proyect proposal idea is divided in three different steps:
 
 1.  Develop an IA capable of defining the animal on every video frame.
     For this step we’ll be using tools like: DeepLabCut and Sleap.
@@ -40,18 +41,24 @@ It is built in three different steps:
   - Efficiency
 
 Before jumping into any conclusion, there’s the need to test the
-efficiency levels of the IA. In order to do so, we’re doing 3
-comparisons: 1. DeepLabCut vs Sleap 2. Rat vs Mouse 3. Git already
-trained IA vs our own IA Depending on the results we shall continue with
-the most efficient one.
+efficiency levels of the IA. In order to do so, we’re making 3
+comparisons: 
+
+  1. DeepLabCut vs Sleap 
+  2. Rat vs Mouse 
+  3. Git alreadytrained IA vs our own IA 
+  
+Depending on the results we shall continue with the most efficient one.
 
 ## In progress
 
-  - First step
+  - First step of the built process
 
 ## To-do list
 
-  - Do the next analysis
+  - Finish the second and third steps of the proyect built process
+  - Make the comparisons between the IA's and determine the most efficient one
+  - Conclusions and analysis of the IA development with the CIN rats videos 
 
 ## Status
 

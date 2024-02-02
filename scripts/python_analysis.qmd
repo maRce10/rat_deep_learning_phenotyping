@@ -1,5 +1,5 @@
 ---
-title: A very cool analysis
+title: Rat_deep_learning_phenotyping
 subtitle: A very fancy project
 author: <a href="http://researcher.website.com/">Researcher name</a>
 date: "`r Sys.Date()`"
@@ -16,11 +16,20 @@ format:
     css: qmd.css
 ---
 
-
+Esto es 1 + 1
 
 ```{python}
 
 1 + 1
+
+```
+
+
+Esto es 2 + 2
+
+```{python}
+
+2 + 2
 
 ```
 
